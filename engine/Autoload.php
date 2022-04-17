@@ -3,12 +3,6 @@ namespace app\engine;
 
 class Autoload
 {
-    private $path = [
-        'models',
-        'engine',
-        'interfaces'
-    ];
-
     public function nameSpaceReplacer($className) {
         return str_replace(
             '\\',
